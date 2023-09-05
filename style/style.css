@@ -22,6 +22,16 @@ h4{
     font-family: 'Amatic SC', cursive !important;
 }
 
+.text{
+    font-size:20px;
+    font-style: italic;
+}
+
+.text2{
+    margin-top: 20px;
+    text-align: center;
+    font-size:25px;
+}
 
 .color1{
     color:#1BBC9B;
@@ -156,16 +166,7 @@ h4{
 
 
 
-/* .card{
-    color:#013243;
-    position:absolute;
-    top: 50%;
-    left:50%;
-    width: 300px;
-    height: 400px;
-    background-color: #e0e1dc;
-    transform-style: preserve-3d;
-    transform: translate(-50%, -50%) perspective(2000px);
-    box-shadow: inset 300px 0 50px rgba(0, 0,0, 0.5), 20px 0 60px rgba(0, 0,0, 0.5);
-    transition: 1s;
-} */
+.coverImage{
+    height: 100%;
+    width: 100%;
+}
