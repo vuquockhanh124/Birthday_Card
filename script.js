@@ -2,6 +2,10 @@ var card= document.querySelector(".card");
 var imgBox= document.querySelector(".imgBox");
 var bark= document.querySelector(".bark");
 
+var background_music= document.querySelector(".background_music");
+
+background_music.volume=0.4;
+
 var Onclick= false;
 
 
@@ -29,3 +33,10 @@ card.addEventListener("click", function(){
    }
   
 });
+
+
+
+$(document).ready(function() {
+   $("#my_audio").get(0).play();
+});
+
