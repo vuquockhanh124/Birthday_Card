@@ -4,17 +4,41 @@
 body{
     font-family: 'Indie Flower', cursive !important;
    
-    
-    background-image: linear-gradient(to right bottom, #0a1d2c, #0c2d46, #0e3e62, #134f7f, #1c619d);
-    background-repeat: no-repeat;
-
     margin:0px;
     padding:0px;
     height: 100vh;
     width: 100vw;
-
+    
+    
 }
+
  
+
+.container{
+   
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+
+ 
+.background_color1{
+    background-image: linear-gradient(to left top, #b5bc08, #ec8519, #f9485d, #cf359f, #5953c9);
+    background-repeat: no-repeat;
+    transition:2s;
+}
+
+.background_color2{
+    background-image: linear-gradient(to right bottom, #291b4c, #6a2160, #a92661, #dd404f, #fc712d);
+    background-repeat: no-repeat;
+    transition:2s;
+}
+
+.background_color3{
+    background-image: linear-gradient(to right bottom, #0a1d2c, #0c2d46, #0e3e62, #134f7f, #1c619d);
+    background-repeat: no-repeat;
+    transition:2s;
+}
 
 ::selection{
     background:transparent;
@@ -231,3 +255,12 @@ body{
 }
 
  
+
+
+
+/* sun set
+
+background-image: linear-gradient(to right bottom, #291b4c, #6a2160, #a92661, #dd404f, #fc712d);
+*/
+
+/* background-image: linear-gradient(to left top, #b5bc08, #ec8519, #f9485d, #cf359f, #5953c9); */
